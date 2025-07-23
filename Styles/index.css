@@ -143,6 +143,7 @@
     font-weight: 600;
     width: 100%;
     padding-top: 19px;
+    color: white;
     padding-bottom: 19px;
     background-color: #E95A08;
     border: none;
@@ -172,5 +173,10 @@
     .banner-description {
         font-size: 0.875rem;
         margin: 0 16px;
+    }
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 14px;
+        margin-top: 28px;
     }
 }
