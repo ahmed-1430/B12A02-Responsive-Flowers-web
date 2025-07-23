@@ -9,9 +9,50 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Noto Serif Font styles */
 .noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.sec-m {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* shared styles End */
+
+/* nav-bar styles */
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 48px;
+    list-style: none;    
+}
+.nav-links a {
+    text-decoration: none;
+    gap: 20px;
+}
+.nav-link1 {
+    font-weight: 700;
+    color: #252432;
+}
+.nav-link2, .nav-link3 {
+    color: #8987A1;
+}
+.cart-price {
+    line-height: 16px;
+    color: #000000;
+}
+.cart-price i {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* nav-bar styles End */
