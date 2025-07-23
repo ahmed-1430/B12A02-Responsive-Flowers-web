@@ -152,6 +152,52 @@
 }
 /* plants section styles End */
 
+/* flowers section style */
+.flowers {
+    margin: 210px auto 134px auto;
+}
+.flower-items {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;    
+}
+.flower-image {
+    position: relative;
+    width: 540px;
+    height: 597px;
+    
+}
+.flower-image img {
+    width: 100%;
+    height: 100%;
+}
+.flower-content {
+    max-width: 540px;
+}
+.flower-titile {
+    font-family: "Noto Serif", serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin: 0;
+}
+.flower-content ul li {
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+
+}
+.flower-image .trust-badge {
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    top: -125px;
+    right: -90px;
+}
+
+
+/* flowers section style End */
+
+
 
 /* Media Query for x-small devices */
 @media screen and (max-width:572px) {
