@@ -61,9 +61,54 @@
 }
 /* nav-bar styles End */
 
+/* banner section styles */
+.banner {
+    display: flex;
+    align-items: end;
+    height: 461px;
+
+}
+.banner-content, .banner-image {
+    max-width: 570px;
+}
+.banner-title {
+    font-family: "Noto Serif", serif;
+    font-size: 4.06rem;
+    font-weight: 700;
+    margin: 0;
+}
+.banner-title span {
+    color: #E95A08;
+}
+.banner-description {
+    font-family: "Inter", sans-serif;
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-image img {
+    width: 100%;
+}
+/* banner section styles End */
+
 /* Media Query for x-small devices */
 @media screen and (max-width:572px) {
+    .nav-items {
+        margin: 0 5px;
+    }
     .nav-link1, .nav-link2, .nav-link3 {
         display: none;
-    }    
+    }
+    .banner {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .banner-title {
+        font-size: 1.5rem;
+        margin: 0 16px;
+        margin-top: 28px;
+    }
+    .banner-description {
+        font-size: 0.875rem;
+        margin: 0 16px;
+    }
 }
