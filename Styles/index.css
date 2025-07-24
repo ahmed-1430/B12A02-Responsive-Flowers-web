@@ -194,8 +194,107 @@
     right: -90px;
 }
 
-
 /* flowers section style End */
+
+/* lastest deals style */
+.latest-deals {
+    text-align: center;
+}
+.latest-deal-title {
+    font-family: "Noto Serif", serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+.latest-deal-description {
+    max-width: 888px;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* latest deals card section */
+.deals-cotainer {
+    margin: 120px 0;
+}
+.deals-card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 366px;
+    height: 206px;
+    border-radius: 10px;   
+}
+.deals-card2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 366px;
+    height: 206px;
+    border-radius: 10px;
+}
+.deals-card3 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 366px;
+    height: 206px; */
+    border-radius: 10px;
+}
+.deal-card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deal-card-titile {
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+}
+.deal-card-titile3 {
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.deal-card-link3 a {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+.deal-card-link {
+    margin: 0;
+    margin-top: 19px;
+}
+.deal-card-link a {
+    font-weight: 600;
+    color: white;
+    text-decoration: 2px solid underline white;
+    margin: 0;
+}
+.deals-cotainer {
+    display: grid;
+    grid-template-columns: 366px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 28px;
+}
+.deals-card2 {
+    grid-column-start: 1;
+    grid-row-start: 2;   
+}
+.deals-card3 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+/* latest deals style End */
 
 
 
