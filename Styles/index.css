@@ -225,4 +225,27 @@
         margin: 0 14px;
         margin-top: 28px;
     }
+    .flower-items {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .flower-image {
+        width: auto;
+        height: auto;
+    }
+    .flower-image img {
+        width: 100%;
+    }
+    .flower-image .trust-badge {
+        display: none;
+    }
+    .flower-titile{
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+    .flower-content ul li {
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+    }
 }
