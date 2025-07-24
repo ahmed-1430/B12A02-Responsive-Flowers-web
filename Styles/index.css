@@ -431,4 +431,38 @@
     margin: 0;
     
 }
+.join-container {
+    height: 276px;
+    width: 100%;
+    background-size: 100% 276px;
+}
+.join-content {
+    width: 100%;
+    height: 276px;
+}
+.join-titile{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 23px;
+}
+.join-info input[type='email'] {
+    padding: 16px 0 15.5px 20px ;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 218px;
+    margin: 0;
+}
+.join-info input[type='button']{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 16px 12px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 }
