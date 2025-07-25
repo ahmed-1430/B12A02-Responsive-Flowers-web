@@ -152,6 +152,10 @@
     margin-top: 25px;
     cursor: pointer;
 }
+.add-btn:hover {
+    background-color: #D04F07;
+}
+
 /* plants section styles End */
 
 /* flowers section style */
