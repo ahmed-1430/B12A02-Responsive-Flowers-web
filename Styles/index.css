@@ -412,6 +412,22 @@
         margin: 0 14px;
         margin-top: 28px;
     }
+    .plants-titile {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .plants-sub-text {
+        font-size: 0.88rem;
+        margin: 16px 29px 0px 29px;
+    }
+    .card-title {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .card-price {
+        font-size: 1rem;
+        font-weight: 700;
+    }
     .flower-items {
         flex-direction: column;
         margin: 0 10px;
@@ -431,9 +447,17 @@
         margin-top: 18px;
     }
     .flower-content ul li {
-    font-size: 0.875rem;
+    font-size: 0.87rem;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 16px;
+    }
+    .latest-deal-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .latest-deal-description {
+        font-size: 0.88rem;
+        margin: 16px 29px 0px 29px;
     }
     .deals-cotainer {
     display: grid;
