@@ -31,6 +31,7 @@
             </div>
         </div>
     </header>
+    <!-- Our plants Section Start -->
     <section class="plnts sec-m inter-font">
         <div class="our-plants">
             <div class="plants-content">
@@ -42,13 +43,13 @@
                 <img src="assets/sample-flower-image.png" alt="Sample flower" class="plant-card-image">
                 <h4 class="card-title">Lily Blossom</h4>
                 <h4 class="card-price">20 USD</h4>
-                <button class="add-btn">ADD TO CART</button>
+                <button class="add-btn" id="add-to-btn">ADD TO CART</button>
             </div>
             <div class="plant-card">
                 <img src="assets/sample-flower-image.png" alt="" class="plant-card-image">
                 <h4 class="card-title">Lily Blossom</h4>
                 <h4 class="card-price">20 USD</h4>
-                <button class="add-btn">ADD TO CART</button>
+                <button class="add-btn" id="add-to-btn" >ADD TO CART</button>
             </div>
             <div class="plant-card">
                 <img src="assets/sample-flower-image.png" alt="" class="plant-card-image">
@@ -89,6 +90,7 @@
             </div>
         </div>
     </section>
+    <!-- lover plants section Start -->
     <section class="flowers sec-m inter-font">
         <div class="flower-items">
             <div class="flower-image">
@@ -105,6 +107,7 @@
             </div>
         </div>
     </section>
+    <!-- latest deals section start -->
     <section class="sec-m inter-font">
         <div class="latest-deals">
             <h3 class="latest-deal-title"><span class="excep-text">Latest </span> Deals</h3>
@@ -134,6 +137,7 @@
             </div>            
         </div>
     </section>
+    <!-- Join Section start -->
     <section class="join-container inter-font">
         <div class="join-content">
             <h3 class="join-titile">Join the colorful Bunch</h3>  
@@ -142,6 +146,7 @@
             </div>
         </div>
     </section>
+    <!-- footer section start -->
     <section class="footer inter-font">
         <div class="footer-items">
             <div class="footer-content1">
@@ -172,5 +177,13 @@
             </div>
         </div>
     </section>
+    <!-- alert massage -->
+     <script>
+       document.querySelectorAll('.add-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    alert('Flower Added to Cart');
+     });
+});
+    </script>
 </body>
 </html>
