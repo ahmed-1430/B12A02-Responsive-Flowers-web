@@ -25,7 +25,9 @@
 .excep-text {
     color: #E95A08;
 }
-
+.primary-bg {
+    background-color: #f5f8ff;
+}
 /* shared styles End */
 
 /* nav-bar styles */
@@ -192,8 +194,7 @@
     width: 286px;
     top: -125px;
     right: -90px;    
-    animation: spin-animation 3s  infinite ;
-    animation-delay: 3s;
+    animation: spin-animation 3s infinite ;    
 }
 @keyframes spin-animation {
     from{ transform: rotate(0deg);} to {transform: rotate(360deg);}    
@@ -341,6 +342,48 @@
     cursor: pointer;
 }
 /* Join section style End */
+
+/* footer section style */
+.footer {
+    max-width: 1120px;
+    height: 248px;
+    margin: 50px auto;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.footer-content1 {
+    max-width: 359px;
+}
+.about-brand {
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 16px 0 0 0;
+}
+.footer-content2, .footer-content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .footer-items a {
+    text-decoration: none;
+    color: #6B7280;
+    line-height: 24px;
+}
+.footer-content4 {
+    max-width: 216px;
+}
+.footer-content4 .footer-icon {
+    display: flex;
+    width: 248px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer section style End */
 
 
 /* Media Query for x-small devices */
