@@ -508,4 +508,19 @@
     border: none;
     cursor: pointer;
 }
+.footer-items {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 55px;
+}
+.footer-content2 {
+    margin-top: 20px;
+} 
+.footer-content3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer {
+    height: auto;
+}
 }
