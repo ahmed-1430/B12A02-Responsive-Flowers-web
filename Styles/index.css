@@ -151,6 +151,7 @@
     border: none;
     margin-top: 25px;
     cursor: pointer;
+    transition: 0.2s;
 }
 .add-btn:hover {
     background-color: #D04F07;
@@ -343,7 +344,11 @@
     background-color: #E95A08;
     color: white;
     border: none;
+    transition: 0.2s;
     cursor: pointer;
+}
+#sub-btn:hover {
+    background-color: #D04F07;
 }
 /* Join section style End */
 
